@@ -1,0 +1,52 @@
+.icono{  
+     font-size: 1rem;
+     color: white;
+     justify-content: center;
+     display: flex;
+     background-color: #021727;
+}
+.link{
+     text-decoration: none;
+     color: #c017a1;
+}
+
+.boton{
+     margin-right: 100px;
+     background-color: #057914;
+     color: white;
+}
+
+.botondel{
+     background-color: #c017a1;
+     color: white;
+}
+
+#icotitle{
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     width: 60%;
+     border: none;
+}
+
+h1,h6{
+     color: blue;
+     font-style: italic;
+}
+/* estilo del boton */
+.btnir {
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+     background-color: #f1f1f1;
+     cursor: pointer;
+}
+
+/* estilo clase active (y boton del mouse-over) */
+.active, .btnir:hover {
+     background-color: rgba(16, 143, 132, 0.432);
+     color: white;
+}
+
+
+
