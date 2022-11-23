@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Anexo Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/edicion.css">
+    <title>Edicion</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/imagen/ArgPr.png" alt="ArgProgLogo" class="w-25 p-2" >
+            </a>
+                <ul class="list-group list-group-horizontal">
+                    <!--Button login modal-->
+                    <li class="list-group-item redes">
+                        <i data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <img src="/imagen/redes sociales/useradd.png">
+                        </i>
+                    </li>
+                </ul>                    
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <ul class="list-group">
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/icoredes.png">
+                                <p>Redes</p> 
+                            </div>
+                            <div class="col mt-4">
+                                <!-- Button trigger modal redes-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#redesModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/icobanner.png">
+                                <p>Banner</p>
+                            </div> 
+                            <div class="col mt-2">
+                                <!-- Button trigger modal banner-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#bannerModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/icoinfo.png"> 
+                                <p>Acerca de Mi</p>
+                            </div>
+                            <div class="col mt-2">
+                                <!-- Button trigger modal info-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#infoModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/iconexp.png"> 
+                                <p>Experiencia</p>
+                            </div>
+                            <div class="col mt-2">
+                                <!-- Button trigger modal experiencia-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#expModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/icoedu.png"> 
+                                <p>Educación</p>
+                            </div>
+                            <div class="col mt-4">
+                                <!-- Button trigger modal educacion-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#eduModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/iconskills.png"> 
+                                <p>Hard & Skills</p>
+                            </div>
+                            <div class="col mt-2">
+                                <!-- Button trigger modal skills-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#skillsModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="row">
+                        <li class="list-group-item icono">
+                            <div class="col">
+                                <img src="/imagen/edicion/icoproy.png"> 
+                                <p>Proyectos</p>
+                            </div>
+                            <div class="col mt-2">
+                                <!-- Button trigger modal proyectos-->
+                                <!--button changes-->
+                                <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#proyModal" Launch demo moda>Changes
+                                </button>
+                                <!--button delete-->
+                                <button type="button" class="btn botondel" data-bs-toggle="modal" data-bs-target="#deleteModal" Launch demo moda>Delete
+                                </button>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="text-center">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12"></div>
+                    <p>&copy Copyright <img src="/imagen/tarjeta.png" width="120px"> Janet Calderón Acuña de Denis - 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Modales-->
+    <!-- Modal changes redes-->
+    <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="redesModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="redesModalLabel">Icono de Redes
+                    </h1>
+                    <div id="icotitle">
+                        <ul class="list-group list-group-horizontal">
+                            <button class="btnir"><img src="/imagen/redes sociales/whats.png"></button>
+                            <button class="btnir active"><img src="/imagen/redes sociales/github.png"></button>       
+                            <button class="btnir"><img src="/imagen/redes sociales/linkedin.png"></button>
+                        </ul>         
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body btnredes">
+                    <h6>subí tu icono</h6>
+                    <input type="file">
+                    <h6>tu link</h6>
+                    <input type="url" name="" id="" placeholder="url">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes redes-->
+    <!-- Modal changes banner-->
+    <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="bannerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="bannerModalLabel">Banner
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body btnbanner">
+                    <h6>subí tu imagen</h6>
+                    <input type="file" style="width: 350px;">
+                    <h6>Nombre y Apellido</h6>
+                    <input type="text" name="" id="" placeholder="" style="width: 350px;">
+                    <h6>tu título</h6>
+                    <input type="text" style="width: 350px;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes banner-->
+    <!-- Modal changes info-->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="infoModalLabel">Acerca de mi
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <h6>subí tu foto</h6>
+                    <input type="file">
+                    <h6>contame sobre vos..</h6>
+                    <textarea rows="3" cols="40" placeholder="contame"></textarea> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes info-->
+    <!-- Modal changes experiencia-->
+    <div class="modal fade" id="expModal" tabindex="-1" aria-labelledby="expModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="expModalLabel">Experiencia
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body btnbanner">
+                    <h6>Logo de empresa</h6>
+                    <input type="file">
+                    <h6>link</h6>
+                    <input type="text" name="" id="" placeholder="Nombre de la empresa o link" style="width: 350px;">
+                    <h6>Puesto</h6>
+                    <input type="text"style="width: 350px;">
+                    <h6>Periodo</h6>
+                    <h6>inicio</h6>
+                    <input type="date" name="" id="">
+                    <h6>termino</h6>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes experiencia-->
+    <!-- Modal changes educacion-->
+    <div class="modal fade" id="eduModal" tabindex="-1" aria-labelledby="eduModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="eduModalLabel">Educación
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body btnedu">
+                    <h6>subí tu título</h6>
+                    <input type="file">
+                    <h6>lugar de estudio</h6>
+                    <input type="text"style="width: 350px;">
+                    <h6>tu título</h6>
+                    <input type="text"style="width: 350px;">
+                    <h6>Año</h6>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes educacion-->
+    <!-- Modal changes skills-->
+    <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="skillsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="skillsModalLabel">Hard & Skills
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body btnbanner">
+                    <h6>tu habilidad</h6>
+                    <input type="text">                    
+                <h6>nivel de experiencia</h6>
+                    <label for="points">Nivel :</label>
+                    <input type="range" id="points" name="points" min="0" max="100">100%
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes skills-->
+    <!-- Modal changes proyectos-->
+    <div class="modal fade" id="proyModal" tabindex="-1" aria-labelledby="proyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="proyModalLabel">Proyectos
+                    </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+                <div class="modal-body btnbanner">
+                    <h6>subí la imagen de tu proyecto</h6>
+                    <input type="file">
+                    <h6>tu link</h6>
+                    <input type="url" name="" id="" placeholder="url" style="width: 350px;">
+                    <h6>tu proyecto</h6>
+                    <input type="text" placeholder="nombre" style="width: 350px;">
+                    <h6>Año</h6>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal changes proyectos-->
+
+    <!-- Modal delete-->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="deleteModalLabel">Borrado</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal delete-->
+    <!--Anexo JS y Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>  
+    <script src="js/main.js"></script>
+</body>
+</html>
